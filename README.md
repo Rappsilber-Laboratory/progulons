@@ -4,8 +4,8 @@ This repository contains R scripts and KNIME workflows associated with the manus
 
 
 # KNIME workflows
-To run these workflows, the following KNIME extensions need to be installed: Weka Data Mining Integration (3.7), File Handling Nodes, Interactive R Statistics Integration, Virtual Nodes. KNIME uses R for several tasks during the workflow, therefore R also needs to be installed on the same computer, and this installation must include the R packages rJava and Rserve. In addition, before using the workflow for the first time, one needs to open an “R snippet” node in KNIME and execute the lines <i>install.packages(“ggplot2”)</i> and <i>install.packages(“gridExtra”)</i>. To execute code in a single, unconnected R snippet node, highlight the commands and click “Eval Selection”.
+To run these workflows, the following KNIME extensions need to be installed: Weka Data Mining Integration (3.7), File Handling Nodes, Interactive R Statistics Integration, Virtual Nodes. KNIME uses R for several tasks during the workflow, therefore R also needs to be installed on the same computer, and this installation must include the R packages rJava and Rserve. In addition, before using the workflow for the first time, one needs to open an “R snippet” node in KNIME and execute the lines <i>install.packages(“ggplot2”)</i> and <i>install.packages(“gridExtra”)</i>. To execute code in a single, unconnected R snippet node, highlight the commands and click “Eval Selection”. 
 
-- <b> Knime_RF_p1.1_batch.zip 1.knwf </b> This workflow is designed to run be executed locally and uses parallelization to speed up the predictions.
+- <b> Knime_RF_p1.1_batch.zip 1.knwf </b> This workflow is designed to be executed locally and uses parallelization to speed up the predictions. All nodes and metanodes are annotated with their purpose. Parameters such as number of decision trees, number of negative training proteins etc. can be modified in the first R snippet node as indicated in the workflow.
 
 
