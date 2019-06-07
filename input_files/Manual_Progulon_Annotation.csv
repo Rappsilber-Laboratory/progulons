@@ -1,0 +1,42 @@
+Progulon,Function,Notes
+PRN01,Ribosome,
+PRN02,"Vesicular transport, AP-3",this is quite nice
+PRN03,"ETC, complex I,II,III",
+PRN04,"Proteasome, regulatory",incl. poorly characterised EMC complex
+PRN05,Translation initiation,
+PRN06,"Vesicular transport, COPI",
+PRN07,"Proteasome, core",
+PRN08,Interferon response,At least 16 / 75 proteins are INF-induced
+PRN09,Myosin cytoskeleton,Muscle related stuff
+PRN10,Actin cytoskeleton,
+PRN11,"Protein folding, prefoldin",
+PRN12,rRNA processing,
+PRN13,"ETC, complex I,II (a)",
+PRN14,hnRNPs,
+PRN15,"ETC, complex I,II (b)",
+PRN16,Cohesin,
+PRN17,mito. 28S ribosome (b),
+PRN18,"Splicing, U1/U2 (a)",
+PRN19,"Splicing, U4/U6.U5",
+PRN20,Nuclear pore,"Some interesting, e.g. sphingomyelinase"
+PRN21,ATP synthase,
+PRN22,Condensin,
+PRN23,"ETC, complex IV",
+PRN24,Cytoskeleton remodelling,
+PRN25,ER membrane,
+PRN26,Protein folding in ER,
+PRN27,Exosome,
+PRN28,"Splicing, U1/U2 (b)",
+PRN29,Nucleosome,
+PRN30,"Protein folding, TRiC",Finds translation factors and prefoldin
+PRN31,14-3-3 proteins,
+PRN32,"DNA replication, MCM",
+PRN33,"DNA replication, RFC",
+PRN34,mito. 39S ribosome (b),
+PRN35,Rab GTPases,
+PRN36,"Vesicular transport, AP-1",
+PRN37,COP9 signalosome,
+PRN38,"Splicing, Sm",
+PRN39,mito. 28S ribosome (a),
+PRN40,mito. 39S ribosome (a),
+PRN41,"DNA replication, GINS",
