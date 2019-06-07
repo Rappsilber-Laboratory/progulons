@@ -21,6 +21,9 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> Unpolished_progulons.7z </b> Compressed folder containing the individual progulonFinder results (Random Forest scores used stats) for the 63 progulons trained by OPTICS clusters. It's the input for Progulon_checkup.R.
 
+- <b> Progulons.7z </b> Random Forest scores of the 41 progulons in long format (produced by Progulon_checkup.R)
+
+- <b> Progulon_scores.7z </b> Random Forest scores of the 41 progulons in wide format (produced by Progulon_checkup.R)
 
 
 # Input files available elsewhere
