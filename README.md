@@ -13,6 +13,12 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> Progulon_checkup.R </b> This script takes the progulon calculations coming from the OPTICS clusters and removes results where the model hasn't performed well, thereby reducing the original round of 63 progulons down to 41 final progulons.
 
+- <b> ProgulonStats.R </b> Calculates how many proteins are assigned to how many progulons (related to Fig. 1f)
+
+- <b> ProgulonOverlap.R </b> Calculates extent of overlap between progulons (related to Fig. 1g)
+
+- <b> ProgulonCor.R </b> Calculates the Spearman correlation between all possible progulon combinations across ProteomeHD. It outputs the mean correlation of all protein pairs made by proteins from two different progulons. Results are written out as ProgulonCor.csv and Fig. 1h.
+
 
 # Input files
 - <b> ProteomeHD_v1.7z </b> This compressed csv file is ProteomeHD, consisting of 10,323 proteins and 294 SILAC ratios.
@@ -26,6 +32,8 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 - <b> Progulon_scores.7z </b> Random Forest scores of the 41 progulons in wide format (produced by Progulon_checkup.R)
 
 - <b> Manual_Progulon_Annotation.csv </b> Small table containing the manually annotated names and IDs for the 41 progulons.
+
+- <b> ProgulonCor.csv </b> Small file with the pairwise Spearman correlations between all progulons across ProteomeHD.
 
 # Input files available elsewhere
 
