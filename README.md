@@ -9,3 +9,5 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 - <b> Knime_RF_p1.1_batch.zip 1.knwf </b> This workflow is designed to be executed locally and uses parallelization to speed up the predictions. All nodes and metanodes are annotated with their purpose. Parameters such as number of decision trees, number of negative training proteins etc. can be modified in the first R snippet node as indicated in the workflow.
 
 
+# Input files available elsewhere
+- <b> ProteomeHD_v1_1.7z </b> This compressed csv file is ProteomeHD, consisting of 10,323 proteins and 294 SILAC ratios. This file is available in the GitHub repository for the corresponding publication (https://github.com/Rappsilber-Laboratory/ProteomeHD/blob/master/Data/ProteomeHD_v1_1.7z) or as Supplementary Table S1 of the same publication (Kustatscher et al, 2019, <i>The human proteome co-regulation map reveals functional relationships between proteins<i/>)
