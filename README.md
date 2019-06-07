@@ -19,6 +19,8 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> ProgulonCor.R </b> Calculates the Spearman correlation between all possible progulon combinations across ProteomeHD. It outputs the mean correlation of all protein pairs made by proteins from two different progulons. Results are written out as ProgulonCor.csv and Fig. 1h.
 
+- <b> ProgulonSNE.R </b> This script creates the scatter, line and t-SNE plots related to Figs. 1b-e. It requires some manual annotation files that are also provided here.
+
 
 # Input files
 - <b> ProteomeHD_v1.7z </b> This compressed csv file is ProteomeHD, consisting of 10,323 proteins and 294 SILAC ratios.
@@ -34,6 +36,8 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 - <b> Manual_Progulon_Annotation.csv </b> Small table containing the manually annotated names and IDs for the 41 progulons.
 
 - <b> ProgulonCor.csv </b> Small file with the pairwise Spearman correlations between all progulons across ProteomeHD.
+
+- <b> Manual_annotation_PRN02.csv </b> and <b> Manual_annotation_PRN11.csv </b> and <b> Manual_annotation_PRN21.csv </b> These files contain manual annotations of proteins highlighted in Fig. 1c, d, and e, respectively. Required by the ProgulonSNE.R script.
 
 # Input files available elsewhere
 
