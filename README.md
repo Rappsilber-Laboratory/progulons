@@ -25,6 +25,7 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> Progulon_scores.7z </b> Random Forest scores of the 41 progulons in wide format (produced by Progulon_checkup.R)
 
+- <b> Manual_Progulon_Annotation.csv </b> Small table containing the manually annotated names and IDs for the 41 progulons.
 
 # Input files available elsewhere
 
