@@ -11,7 +11,7 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 # R scripts
 - <b> treeClust_OPTICS.R </b> This script determines clusters of tightly co-regulated proteins in ProteomeHD, which were then used as positive training sets for progulonFinder. It first turns ProteomeHD into a distance matrix using the treeClust algorithm, then clusters it using OPTICS.
 
-- <b> Progulon_checkup.R <b/> This script takes the progulon calculations coming from the OPTICS clusters and removes results where the model hasn't performed well, thereby reducing the original round of 63 progulons down to 41 final progulons.
+- <b> Progulon_checkup.R </b> This script takes the progulon calculations coming from the OPTICS clusters and removes results where the model hasn't performed well, thereby reducing the original round of 63 progulons down to 41 final progulons.
 
 
 # Input files
