@@ -15,6 +15,8 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 
 # Input files
+- <b> ProteomeHD_v1.7z </b> This compressed csv file is ProteomeHD, consisting of 10,323 proteins and 294 SILAC ratios.
+
 - <b> Clusters_as_training_seeds.csv </b> Table containing the protein IDs for the 63 clusters identified by OPTICS. It is used as input for the offline progulonFinder KNIME workflow (Knime_RF_p1.1_batch.zip 1.knwf), which loops over the columns in this file using each as positive training set.
 
 - <b> Unpolished_progulons.7z </b> Compressed folder containing the individual progulonFinder results (Random Forest scores used stats) for the 63 progulons trained by OPTICS clusters. It's the input for Progulon_checkup.R.
@@ -22,4 +24,4 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 
 # Input files available elsewhere
-- <b> ProteomeHD_v1_1.7z </b> This compressed csv file is ProteomeHD, consisting of 10,323 proteins and 294 SILAC ratios. This file is available in the GitHub repository for the corresponding publication (https://github.com/Rappsilber-Laboratory/ProteomeHD/blob/master/Data/ProteomeHD_v1_1.7z) or as Supplementary Table S1 of the same publication (Kustatscher et al, 2019, <i>The human proteome co-regulation map reveals functional relationships between proteins<i/>)
+
