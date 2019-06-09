@@ -21,6 +21,11 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> ProgulonSNE.R </b> This script creates the scatter, line and t-SNE plots related to Figs. 1b-e. It requires some manual annotation files that are also provided here.
 
+- <b> ProgulonTopGo.R </b> Uses topGO to calculate GO term enrichment for progulons. Set onotlogy MF, BP, CC and execute sequentially.
+
+- <b> ProgulonTopGo_plotting.R </b> Takes the files created by ProgulonTopGO.R as input and outputs the GO term enrichment plots.
+
+
 
 # Input files
 - <b> ProteomeHD_v1.7z </b> This compressed csv file is ProteomeHD, consisting of 10,323 proteins and 294 SILAC ratios.
