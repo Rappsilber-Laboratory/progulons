@@ -25,6 +25,7 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> ProgulonTopGo_plotting.R </b> Takes the files created by ProgulonTopGO.R as input and outputs the GO term enrichment plots.
 
+- <b> PRN_genome_loc.R </b> Tests if progulons are enriched for genes from the same chromosome and outputs a volcano plot. Uses genome positions (Human_gene_positions_26Mar18.csv) from ENSEMBL as input.
 
 
 # Input files
@@ -43,6 +44,9 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 - <b> ProgulonCor.csv </b> Small file with the pairwise Spearman correlations between all progulons across ProteomeHD.
 
 - <b> Manual_annotation_PRN02.csv </b> and <b> Manual_annotation_PRN11.csv </b> and <b> Manual_annotation_PRN21.csv </b> These files contain manual annotations of proteins highlighted in Fig. 1c, d, and e, respectively. Required by the ProgulonSNE.R script.
+
+- <b> Human_gene_positions_26Mar18.csv </b> ENSEMBL genome annotation used for this manuscript.
+
 
 # Input files available elsewhere
 
