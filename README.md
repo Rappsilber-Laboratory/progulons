@@ -47,7 +47,9 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> Human_gene_positions_26Mar18.csv </b> ENSEMBL genome annotation used for this manuscript.
 
-- <b> BattleSILAC_PickrellRPKM.7z </b> Compressed csv file containing mRNA and protein abundance changes across lymphoblastoid cell lines.
+- <b> BattleSILAC_PickrellRPKM.7z </b> Compressed csv file containing mRNA and protein abundance changes across lymphoblastoid cell lines. See Kustatscher et al (Mol Syst Biol, 2017) for more details. Original transcriptomics data from Pickrell et al (Nature, 2010), original proteomics data from Battle et al (Science, 2015).
+
+- <b> mouse_SILAC_TPMs_log2_final_min8_features.csv </b> File containing the matched mRNA and protein abundance changes across mouse tissues. See Grabowski et al (MCP, 2018) for more details. Original transcriptomics data from a range of studies, original proteomics data from Geiger et al (MCP, 2013).
 
 
 # Input files available elsewhere
