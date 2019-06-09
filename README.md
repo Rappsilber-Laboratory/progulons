@@ -51,6 +51,9 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> mouse_SILAC_TPMs_log2_final_min8_features.csv </b> File containing the matched mRNA and protein abundance changes across mouse tissues. See Grabowski et al (MCP, 2018) for more details. Original transcriptomics data from a range of studies, original proteomics data from Geiger et al (MCP, 2013).
 
+- <b> ID_conversion.tab </b> File to convert protein IDs from Lapek et al to ProteomeHD (creating using UniProt's Retrieve tool).
+
+
 
 # Input files available elsewhere
 
