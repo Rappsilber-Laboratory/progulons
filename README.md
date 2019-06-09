@@ -47,6 +47,8 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> Human_gene_positions_26Mar18.csv </b> ENSEMBL genome annotation used for this manuscript.
 
+- <b> BattleSILAC_PickrellRPKM.7z </b> Compressed csv file containing mRNA and protein abundance changes across lymphoblastoid cell lines.
+
 
 # Input files available elsewhere
 
