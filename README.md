@@ -27,6 +27,9 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> PRN_genome_loc.R </b> Tests if progulons are enriched for genes from the same chromosome and outputs a volcano plot. Uses genome positions (Human_gene_positions_26Mar18.csv) from ENSEMBL as input.
 
+- <b> PRNs_RNA_prot_Haas.R </b> and <b> PRNs_RNA_prot_Mouse.R </b> and <b> PRNs_RNA_prot_LCL.R </b> These scripts were used to perform all analyses and create all plots related to mRNA and protein comparisons for the breast cancer, mouse and lymphoblastoid cell data, respectively.
+
+
 
 # Input files
 - <b> ProteomeHD_v1.7z </b> This compressed csv file is ProteomeHD, consisting of 10,323 proteins and 294 SILAC ratios.
