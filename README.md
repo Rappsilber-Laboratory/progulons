@@ -29,10 +29,17 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> PRNs_RNA_prot_Haas.R </b> and <b> PRNs_RNA_prot_Mouse.R </b> and <b> PRNs_RNA_prot_LCL.R </b> These scripts were used to perform all analyses and create all plots related to mRNA and protein comparisons for the breast cancer, mouse and lymphoblastoid cell data, respectively.
 
+- <b> Prn_evol.R </b> Script comparing mouse and human co-regulation within and outside progulons, to assess their potential evolutionary conservation
+
+- <b> Progulon_HL.R </b> This script calculates and compares mRNA and protein half-lifes and turnover kinetics. The mRNA half-lives are from Tani et al (Genome Research, 2012). The script uses their Table S1 as input. The protein half-lives are from McShane et al (Cell, 2016). The script uses their Table S4 as input.
+
+- <b> Replisome.R </b> This script performs the analysis and creates all plots related to the manual prediction of the replisome progulon (the predictions themselves are created by the KNIME-based progulonFinder workflow).
 
 
 # Input files
 - <b> ProteomeHD_v1.7z </b> This compressed csv file is ProteomeHD, consisting of 10,323 proteins and 294 SILAC ratios.
+
+- <b> ProteomeHD_v1_1.7z </b> A slightly different version of ProteomeHD used by some scripts. This is median-normalised and the column names have been polished.
 
 - <b> Clusters_as_training_seeds.csv </b> Table containing the protein IDs for the 63 clusters identified by OPTICS. It is used as input for the offline progulonFinder KNIME workflow (Knime_RF_p1.1_batch.zip 1.knwf), which loops over the columns in this file using each as positive training set.
 
@@ -56,7 +63,25 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> ID_conversion.tab </b> File to convert protein IDs from Lapek et al to ProteomeHD (creating using UniProt's Retrieve tool).
 
+- <b> RefSeq2_to_Uniprot.tab </b> Conversion file used by Progulon_HL>R to match mRNA half-lives from Tani et al to protein half-lives from McShane et al.
 
+- <b> allComplexes.txt </b> File containing CORUM protein complexes. Used by Progulon_HL.R to assess if NEDs are only enriched in progulons because protein complexes are enriched. 
 
-# Input files available elsewhere
+- <b> Rna_Pro_PRN_LCL.csv </b> and <b> Haas_Rna_Pro_PRN.csv </b> and <b> Mouse_Rna_Pro_PRN.csv </b> These three files contain mRNA and protein correlations. They are also available as separate tabs in Supplementary Table 2.
+
+- <b> Replisome_training.csv </b> List of 41 training proteins used for the manual prediction of the replisome progulon (NOTE: This file contains proteinGroups with isoform information. It can be used directly for the offline progulonFinder workflow, but for the online version the isoform annotation needs to be removed).
+
+- <b> QuickGO_DNA_replication_GO0006260.tsv </b> GO annotation for DNA replication obtained from QuickGO.
+
+- <b> Candidates_siRNA_screen.csv </b> IDs of candidates used for the siRNA screen and the corresponding results.
+
+- <b> RF_score_Replisome_all.csv </b> Result of progulonFinder for the manual prediction of the progulon.
+
+- <b> RF_score_Replisome_without_NCC.csv </b> Result of progulonFinder for the manual prediction of the progulon - but without considering the 15 NCC experiments.
+
+- <b> RF_score_Replisome_without15random_1.csv </b> and <b> RF_score_Replisome_without15random_2.csv </b> and <b> RF_score_Replisome_without15random_3.csv </b>  Result of progulonFinder for the manual prediction of the progulon - but without considering the 15 random experiments (three different sets of randomly omitted experiments).
+
+- <b> RF_score_Replisome_NCConly.csv </b>  Result of progulonFinder for the manual prediction of the progulon - considering only the 15 NCC experiments.
+
+- <b> RF_score_Replisome_only15random_1.csv </b> and <b> RF_score_Replisome_only15random_2.csv </b> and <b> RF_score_Replisome_only15random_3.csv </b> Result of progulonFinder for the manual prediction of the progulon - considering only 15 random experiments (three different sets of randomly selected experiments).
 
