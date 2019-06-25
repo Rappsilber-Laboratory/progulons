@@ -37,6 +37,8 @@ To run these workflows, the following KNIME extensions need to be installed: Wek
 
 - <b> Replisome.R </b> This script performs the analysis and creates all plots related to the manual prediction of the replisome progulon (the predictions themselves are created by the KNIME-based progulonFinder workflow).
 
+- <b> siRNA_screen_method_comp.R </b> Short script to plot the barcharts found in Supplementary Fig. 8 (comparing SD and RSA scoring methods for the siRNA screen).
+
 
 # Input files
 - <b> ProteomeHD_v1.7z </b> This compressed csv file is ProteomeHD, consisting of 10,323 proteins and 294 SILAC ratios.
