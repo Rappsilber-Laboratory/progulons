@@ -1,6 +1,5 @@
 # About this repository
-This repository contains R scripts and KNIME workflows associated with the manuscript "XXX".
-
+This repository contains R scripts and KNIME workflows associated with the manuscript "Higher-order modular regulation of the human proteome".
 
 
 # KNIME workflows
